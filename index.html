@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор ИМТ</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Калькулятор ИМТ</h1>
+        <form id="bmiForm">
+            <label class="input__height" for="height">Рост (в см): </label>
+            <input class="input__height" type="number" id="height" name="height" required>
+            <br>
+            <label class="input__weight" for="weight">Вес (в кг): </label>
+            <input class="input__weight" type="number" id="weight">
+            <br>
+            <button class="btn" type="submit">Расчитать ИМТ</button>
+            <button class="btn" type="reset">Сбросить</button>
+        </form>
+        <p id="result"></p>
+    </main>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
